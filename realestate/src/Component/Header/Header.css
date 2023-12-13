@@ -1,0 +1,10 @@
+.h-wrapper{
+    
+    color: white;
+    background:var(--black  #000000);
+    
+}
+
+.h-container{
+    justify-content: space-between;
+}

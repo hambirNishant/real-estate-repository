@@ -1,10 +1,28 @@
 .h-wrapper{
     
-    color: white;
-    background:var(--black  #000000);
+    /* color: white; */
+    background:var(--black,  #000000);
     
 }
 
+  
+
 .h-container{
     justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    
+}
+.h-menu{
+    gap: 2rem;
+
+}
+.h-menu>*:hover{
+    cursor: pointer;
+}
+a{
+    color: white;
+
+    text-decoration: none;
 }

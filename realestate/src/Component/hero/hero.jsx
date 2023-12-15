@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Hero = () => {
+import'./hero.css';
+function Hero  ()  {
   return (
     <section className="hero-wrapper">
         <div className='paddings innerwidth flexCenter hero-container '>

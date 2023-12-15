@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Component/Header/Header';
+import Hero from './Component/Hero/Hero';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Hero/>
     {/* <Header/> */}
   </React.StrictMode>
 );

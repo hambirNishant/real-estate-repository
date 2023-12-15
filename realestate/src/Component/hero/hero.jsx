@@ -1,7 +1,8 @@
 import React from 'react'
 import'./hero.css';
-function Hero  ()  {
+const Hero = ()=> {
   return (
+    <>
     <section className="hero-wrapper">
         <div className='paddings innerwidth flexCenter hero-container '>
             <div className="hero-left">
@@ -17,6 +18,7 @@ function Hero  ()  {
         </div>
 
     </section>
+    </>
   )
 }
 

@@ -1,8 +1,24 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  position: relative;
+  overflow-x: clip;
+}
+.App>:nth-child(1)
+{
+  background:var(--black,  #000000);
+  position: relative;
 }
 
-.App-logo {
+.white-gradient{
+  position: absolute;
+  height: 20rem;
+  width: 20rem;
+  background: rgba(255, 255,255, 0.522);
+  filter: blur(100px);
+  border-radius: 100px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

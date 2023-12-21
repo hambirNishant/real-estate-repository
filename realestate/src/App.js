@@ -4,6 +4,7 @@ import Header from './Component/Header/Header';
 import Hero from './Component/Hero/hero';
 import Companies from './Component/Companies/Companies';
 import Residencies from './Component/Residencies/Residencies';
+import Value from './Component/Value/Value';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     </div>
     <Companies/>
     <Residencies/>
+    <Value/>
   </div>
   );
 }

@@ -5,6 +5,7 @@ import Hero from './Component/Hero/hero';
 import Companies from './Component/Companies/Companies';
 import Residencies from './Component/Residencies/Residencies';
 import Value from './Component/Value/Value';
+import Contact from './Component/Contact/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Companies/>
     <Residencies/>
     <Value/>
+    <Contact/>
   </div>
   );
 }

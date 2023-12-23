@@ -24,4 +24,67 @@
     border: 0.8px solid rgba(128, 128, 128, 0.143);
     border-radius: 5px;
     gap: 1rem;
+    transition: all 300ms ease-in;
+}
+.mode .button{
+    width: 81%;
+    background: var(--lightBlue, #ADD8E6);
+    color: var(--blue,#0000ff);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.mode>:nth-child(1)
+{
+    width: 100%;
+    gap: 1.6rem;
+}
+.mode .details .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.mode:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.mode.button:hover{
+    background:var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+.mode1{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+    margin-left: 25px;
+}
+
+
+
+.mode1>:nth-child(1)
+{
+    width: 100%;
+    gap: 1.6rem;
+}
+.mode1 .details .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.mode1:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.mode1.button:hover{
+    background:var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+.mode1 .button{
+    width: 81%;
+    background: var(--lightBlue, #ADD8E6);
+    color: var(--blue,#0000ff);
+    font-size: 0.8rem;
+    font-weight: 600;
 }
